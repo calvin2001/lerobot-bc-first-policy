@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 비밀값
+.env
+*.pem
+*.key
+secrets.yaml
+
+# 데이터 / 산출물
+data/
+datasets/
+*.csv
+*.parquet
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+
+# 실험 로그
+runs/
+wandb/
+outputs/
+lightning_logs/
+mlruns/
+*.log
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
