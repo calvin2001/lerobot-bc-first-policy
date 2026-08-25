@@ -1,0 +1,209 @@
+{
+  "repo_id": "lerobot/pusht",
+  "meta": {
+    "fps": 10,
+    "total_episodes": 206,
+    "total_frames": 25650,
+    "total_tasks": 1,
+    "robot_type": "unknown",
+    "camera_keys": [
+      "observation.image"
+    ],
+    "video_keys": [
+      "observation.image"
+    ],
+    "features": {
+      "observation.image": {
+        "dtype": "video",
+        "shape": [
+          96,
+          96,
+          3
+        ],
+        "names": [
+          "height",
+          "width",
+          "channel"
+        ],
+        "video_info": {
+          "video.fps": 10.0,
+          "video.codec": "av1",
+          "video.pix_fmt": "yuv420p",
+          "video.is_depth_map": false,
+          "has_audio": false
+        }
+      },
+      "observation.state": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": {
+          "motors": [
+            "motor_0",
+            "motor_1"
+          ]
+        },
+        "fps": 10.0
+      },
+      "action": {
+        "dtype": "float32",
+        "shape": [
+          2
+        ],
+        "names": {
+          "motors": [
+            "motor_0",
+            "motor_1"
+          ]
+        },
+        "fps": 10.0
+      },
+      "episode_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "frame_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "timestamp": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "next.reward": {
+        "dtype": "float32",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "next.done": {
+        "dtype": "bool",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "next.success": {
+        "dtype": "bool",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      },
+      "task_index": {
+        "dtype": "int64",
+        "shape": [
+          1
+        ],
+        "names": null,
+        "fps": 10.0
+      }
+    },
+    "avg_episode_frames": 124.51456310679612
+  },
+  "sample": {
+    "observation.image": {
+      "shape": [
+        3,
+        96,
+        96
+      ],
+      "dtype": "torch.float32",
+      "min": 0.235,
+      "max": 1.0
+    },
+    "observation.state": {
+      "shape": [
+        2
+      ],
+      "dtype": "torch.float32",
+      "min": 97.0,
+      "max": 222.0
+    },
+    "action": {
+      "shape": [
+        2
+      ],
+      "dtype": "torch.float32",
+      "min": 71.0,
+      "max": 233.0
+    },
+    "episode_index": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "min": 0,
+      "max": 0
+    },
+    "frame_index": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "min": 0,
+      "max": 0
+    },
+    "timestamp": {
+      "shape": [],
+      "dtype": "torch.float32",
+      "min": 0.0,
+      "max": 0.0
+    },
+    "next.reward": {
+      "shape": [],
+      "dtype": "torch.float32",
+      "min": 0.19,
+      "max": 0.19
+    },
+    "next.done": {
+      "shape": [],
+      "dtype": "torch.bool",
+      "min": 0,
+      "max": 0
+    },
+    "next.success": {
+      "shape": [],
+      "dtype": "torch.bool",
+      "min": 0,
+      "max": 0
+    },
+    "index": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "min": 0,
+      "max": 0
+    },
+    "task_index": {
+      "shape": [],
+      "dtype": "torch.int64",
+      "min": 0,
+      "max": 0
+    },
+    "task": {
+      "type": "str",
+      "value": "Push the T-shaped block onto the T-shaped target."
+    }
+  }
+}

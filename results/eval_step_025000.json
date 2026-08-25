@@ -1,0 +1,131 @@
+{
+  "per_task": [
+    {
+      "task_group": "pusht",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          98.56804044892125,
+          55.47758795986358,
+          43.40923632686612,
+          23.034357563718416,
+          6.730821198103887,
+          35.57856161841809,
+          38.311820955180025,
+          0.0,
+          26.63226953702422,
+          106.83237687198867,
+          37.66582562890955,
+          15.749458910811807,
+          1.7684890675431522,
+          7.718592942868549,
+          4.120715418315008,
+          38.88232700695027,
+          0.2677843592276649,
+          35.533517161119704,
+          85.92757388041684,
+          61.47868123447803
+        ],
+        "max_rewards": [
+          0.4766943166352772,
+          0.7330310874706562,
+          0.8507637380769647,
+          0.3944937574710664,
+          0.35443477078670604,
+          0.5132867573260268,
+          0.6325496903351778,
+          0.0,
+          0.26215620122576877,
+          0.5729799425230672,
+          0.49573796764281314,
+          0.15150181751565175,
+          0.1503005590482769,
+          0.19135848283707044,
+          0.18401139907793534,
+          0.4602954552986347,
+          0.004670457130315357,
+          0.542455713494029,
+          0.5745282722886014,
+          0.8210145759890332
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_0.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_1.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_2.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_3.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_4.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_5.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_6.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_7.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_8.mp4",
+          "outputs/eval/step_025000/videos/pusht_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      }
+    }
+  ],
+  "per_group": {
+    "pusht": {
+      "avg_sum_reward": 36.184401904536244,
+      "avg_max_reward": 0.41831324810865367,
+      "pc_success": 0.0,
+      "n_episodes": 20,
+      "video_paths": [
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_0.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_1.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_2.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_3.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_4.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_5.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_6.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_7.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_8.mp4",
+        "outputs/eval/step_025000/videos/pusht_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 36.184401904536244,
+    "avg_max_reward": 0.41831324810865367,
+    "pc_success": 0.0,
+    "n_episodes": 20,
+    "eval_s": 29.18947982788086,
+    "eval_ep_s": 1.459474003314972,
+    "video_paths": [
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_0.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_1.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_2.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_3.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_4.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_5.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_6.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_7.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_8.mp4",
+      "outputs/eval/step_025000/videos/pusht_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}
